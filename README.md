@@ -47,10 +47,10 @@ conda install -c bioconda vcf-annotator
 
 ### From Source
 ```
-git@github.com:rpetit3/vcf-annottor.git
-cd vcf-annottor
+git@github.com:rpetit3/vcf-annotator.git
+cd vcf-annotator
 pip3 install -r requirements.txt
-python3 vcf-annottor.py YOUR_VCF.vcf REFERENCE.gb
+python3 vcf-annotator.py YOUR_VCF.vcf REFERENCE.gb
 ```
 
 Nothing much else to it, just a simple to read in a VCF and GenBank file and output an annotated VCF. Feel free to drop it in your $PATH somewhere!
